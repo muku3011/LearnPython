@@ -12,20 +12,27 @@ Binary Types    :	bytes, bytearray, memoryview
 You can get the data type of any object by using the type() function:
 """
 
-listExample = ('mukesh', 'ghanshu', 'mota', "mukesh")
+tupleExample = ('mukesh', 'ghanshu', 'mota', "mukesh")
 
-print(type(listExample))
+print(type(tupleExample))
 
 # Print all elements from the list
-print(listExample)
+print(tupleExample)
 
 # Print list size
-print(listExample.__len__())
+print(tupleExample.__len__())
 
 # Add item to list
 
 # Print all elements from the list
-print(listExample)
+print(tupleExample)
 
 # Print list size
-print(listExample.__len__())
+print(tupleExample.__len__())
+
+
+a = ["apple", "banana", "cherry"]
+
+b = {"name" : "John", "age" : 36}
+
+c = {"apple", "banana", "cherry"}
